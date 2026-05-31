@@ -1,1 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asini Konpola</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #222;
+      background: #f7f8fa;
+      line-height: 1.6;
+    }
 
+    header {
+      background: #1f2937;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #d1d5db;
+    }
+
+    nav {
+      background: white;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #1f2937;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 950px;
+      margin: 40px auto;
+      padding: 30px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+
+    h2 {
+      color: #1f2937;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 8px;
+    }
+
+    .project {
+      margin-bottom: 25px;
+    }
+
+    .project h3 {
+      margin-bottom: 5px;
+      color: #111827;
+    }
+
+    .skills span {
+      display: inline-block;
+      background: #e5e7eb;
+      color: #111827;
+      padding: 8px 12px;
+      margin: 6px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #6b7280;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Asini Konpola</h1>
+    <p>Mathematics PhD Candidate | Mathematical Modeling | Bayesian Inference | Data Analytics</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#skills">Skills</a>
+    <a href="#presentations">Presentations</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I am a PhD candidate in Mathematics at Purdue University with research interests in
+      mathematical biology, agent-based modeling, Bayesian inference, parameter estimation,
+      and data-driven analysis of biological systems.
+    </p>
+    <p>
+      My work focuses on developing and analyzing computational models to understand complex
+      biological patterns, with applications in zebrafish skin pattern formation, fern tissue
+      development, and vascular network analysis.
+    </p>
+  </section>
+
+  <section id="research">
+    <h2>Research Projects</h2>
+
+    <div class="project">
+      <h3>Parameter Estimation in Zebrafish Pattern Formation Models</h3>
+      <p>
+        I use pair correlation functions as summary statistics and Bayesian inference methods
+        to estimate parameters in an agent-based model of zebrafish skin pattern formation.
+        This work helps identify informative developmental time points, mutants, and cell types
+        for future experimental design and model refinement.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Vertex-Based Modeling of Fern Gametophyte Development</h3>
+      <p>
+        I develop vertex-based mathematical models to study fern gametophyte tissue development,
+        focusing on cell growth, division, mechanical interactions, and tissue-level pattern formation.
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Topological Data Analysis of Vascular Networks</h3>
+      <p>
+        I apply computational and topological methods to analyze vascular network structures
+        and study how aging and biological conditions affect network organization.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <span>Mathematical Modeling</span>
+      <span>Agent-Based Modeling</span>
+      <span>Bayesian Inference</span>
+      <span>Parameter Estimation</span>
+      <span>Data Analysis</span>
+      <span>Time Series Analysis</span>
+      <span>MATLAB</span>
+      <span>Python</span>
+      <span>R</span>
+      <span>SQL</span>
+      <span>Data Visualization</span>
+    </div>
+  </section>
+
+  <section id="presentations">
+    <h2>Presentations</h2>
+    <p>
+      Selected conference and seminar presentations will be listed here, including work on
+      zebrafish pattern formation, mathematical biology, and data-driven modeling.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: akonpola@purdue.edu</p>
+    <p>GitHub: <a href="https://github.com/akonpola">github.com/akonpola</a></p>
+    <p>Website: <a href="https://akonpola.github.io">akonpola.github.io</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Asini Konpola</p>
+  </footer>
+
+</body>
+</html>
