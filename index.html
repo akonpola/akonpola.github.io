@@ -86,23 +86,38 @@
       padding: 30px;
       color: #6b7280;
     }
-    .profile-photo {
-  width: 180px;
-  height: 180px;
+    .profile-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 50%;
-  display: block;
-  margin: 20px auto;
+  flex-shrink: 0;
+}
+
+.profile-header h1 {
+  margin: 0;
+}
 }
   </style>
 </head>
 
 <body>
-  <img src="KonpolaAsini.jpg" alt="Asini Konpola" class="profile-photo">
   <header>
-    <h1>Asini Konpola</h1>
-    <p>Mathematics PhD Candidate | Data-driven Modeling | Bayesian Inference | Data Analytics</p>
-  </header>
+  <div class="profile-header">
+    <img src="profile.jpg" alt="Asini Konpola" class="profile-photo">
+
+    <div>
+      <h1>Asini Konpola</h1>
+      <p>Mathematics PhD Candidate | Data-driven Modeling | Bayesian Inference | Data Analytics</p>
+    </div>
+  </div>
+</header>
 
   <nav>
     <a href="#about">About</a>
